@@ -21,7 +21,12 @@ describe("Shopping", () => {
     cy.get(".card-title").contains("Dell i7 8gb").click();
     cy.get(".btn-success").click();
 
+    // Deben confirmarse los productos en el carrito
+
     cy.get("#cartur").click();
+    cy.get(".table").contains("Samsung galaxy s6");
+    cy.get(".table").contains("Dell i7 8gb");
+    cy.get(".table tbody tr").should("have.length", 2);
     cy.get(".btn-success").click();
 
     cy.get("#name").type("John Doe");

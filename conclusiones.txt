@@ -1,0 +1,17 @@
+Conclusiones del Test de Automatización E2E para Demoblaze.com
+
+Este test de automatización E2E se llevó a cabo para verificar el correcto funcionamiento del flujo de compra en
+la página https://www.demoblaze.com/ que incluye agregar dos productos al carrito, visualizar el carrito, completar el
+formulario de compra y finalizar la compra.
+
+Durante la ejecución del test, se observaron varios pasos:
+
+Agregar productos al carrito: El test pudo agregar dos productos diferentes al carrito sin problemas. Se utilizó la
+funcionalidad de búsqueda y selección de productos, seguida por la adición al carrito mediante el botón correspondiente.
+Visualizar el carrito: Se verificó que al hacer clic en el enlace "Cart", se redirigiera correctamente a la página del
+carrito y se comprobó que los productos añadidos se encuentren en el carrito.
+Completar el formulario de compra: Se completó el formulario de compra con los datos requeridos, como nombre, país,
+ciudad, número de tarjeta, mes y año de expiración. No se observaron problemas en esta parte del test.
+Finalizar la compra: Se realizó un clic en el botón de compra y se esperó la aparición de una alerta de confirmación.
+
+En resumen, el test logró completar con éxito los pasos del flujo de compra.
