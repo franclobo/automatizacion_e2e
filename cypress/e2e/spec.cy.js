@@ -14,11 +14,12 @@ describe("Shopping", () => {
 
     cy.get(".list-group-item").contains("Phones").click();
     cy.get(".card-title").contains("Samsung galaxy s6").click();
-    cy.get(".btn-primary").click();
+    cy.get(".btn-success").click();
 
+    cy.get(".nav-link").contains("Home").click();
     cy.get(".list-group-item").contains("Laptops").click();
     cy.get(".card-title").contains("Dell i7 8gb").click();
-    cy.get(".btn-primary").click();
+    cy.get(".btn-success").click();
 
     cy.get("#cartur").click();
     cy.get(".btn-success").click();
@@ -29,7 +30,7 @@ describe("Shopping", () => {
     cy.get("#card").type("1234567890");
     cy.get("#month").type("12");
     cy.get("#year").type("2023");
-    cy.get(".btn-primary").click({ multiple: true })
+    cy.get(".btn-primary").contains("Purchase").click();
 
     cy.get(".sweet-alert").should("be.visible");
     cy.get(".confirm").click();
