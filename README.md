@@ -22,7 +22,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Automatización E2E] <a name="about-project"></a>
+# 📖 Automatización E2E <a name="about-project"></a>
 
 **[Automatización E2E]** es un proyecto que tiene como objetivo automatizar pruebas end-to-end en una aplicación web. Para ello, se utiliza la herramienta Cypress, la cual permite realizar pruebas de forma rápida y sencilla.
 
